@@ -4,16 +4,25 @@
     <Filter Include="2562">
       <UniqueIdentifier>{1478c026-6e14-4a2c-b41c-fb311d4c7330}</UniqueIdentifier>
     </Filter>
+    <Filter Include="10818">
+      <UniqueIdentifier>{851243f6-57ee-4918-a46c-56bbc1f03eff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="2562\2562.cpp">
       <Filter>2562</Filter>
     </ClCompile>
+    <ClCompile Include="10818\p10818.cpp">
+      <Filter>10818</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2562\2562.h">
       <Filter>2562</Filter>
+    </ClInclude>
+    <ClInclude Include="10818\p10818.h">
+      <Filter>10818</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

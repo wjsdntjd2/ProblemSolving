@@ -2,7 +2,7 @@
 
 void p2562::p2562Solving()
 {
-	std::vector<int> vec = std::vector<int>(); 
+	int arr[9] = {};
 	int biggestvalue = 0;
 	int number = 0;
 
@@ -11,15 +11,15 @@ void p2562::p2562Solving()
 	{
 		int temp = 0;
 		std::cin >> temp; 
-		vec.emplace_back(temp);
+		arr[i] = temp;
 	}
 
 	// 정수 비교 후 저장
 	for (int i = 0; i < 9; ++i)
 	{
-		if (biggestvalue < vec[i])
+		if (biggestvalue < arr[i])
 		{
-			biggestvalue = vec[i];
+			biggestvalue = arr[i];
 			number = i + 1;
 		}
 	}
