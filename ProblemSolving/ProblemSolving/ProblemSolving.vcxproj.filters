@@ -7,6 +7,9 @@
     <Filter Include="10818">
       <UniqueIdentifier>{851243f6-57ee-4918-a46c-56bbc1f03eff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2577">
+      <UniqueIdentifier>{de0b4d1b-d7bb-42c4-ae30-934e106d2710}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -16,6 +19,9 @@
     <ClCompile Include="10818\p10818.cpp">
       <Filter>10818</Filter>
     </ClCompile>
+    <ClCompile Include="2577\p2577.cpp">
+      <Filter>2577</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2562\2562.h">
@@ -23,6 +29,9 @@
     </ClInclude>
     <ClInclude Include="10818\p10818.h">
       <Filter>10818</Filter>
+    </ClInclude>
+    <ClInclude Include="2577\p2577.h">
+      <Filter>2577</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

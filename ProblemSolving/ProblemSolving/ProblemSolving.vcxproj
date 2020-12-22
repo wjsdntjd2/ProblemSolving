@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="10818\p10818.cpp" />
     <ClCompile Include="2562\2562.cpp" />
+    <ClCompile Include="2577\p2577.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="10818\p10818.h" />
     <ClInclude Include="2562\2562.h" />
+    <ClInclude Include="2577\p2577.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

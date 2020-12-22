@@ -1,8 +1,8 @@
-#include "10818/p10818.h"
+#include "2577/p2577.h"
 using namespace std;
 
 int main()
 {
-	p10818 p;
-	p.p10818Solving(); 
+	p2577 p;
+	p.p2577Solving(); 
 }
