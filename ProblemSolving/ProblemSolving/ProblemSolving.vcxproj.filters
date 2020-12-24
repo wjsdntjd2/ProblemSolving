@@ -13,6 +13,9 @@
     <Filter Include="3052">
       <UniqueIdentifier>{7e4990bb-898b-483b-9da0-92380a24bd05}</UniqueIdentifier>
     </Filter>
+    <Filter Include="1546">
+      <UniqueIdentifier>{b66e2b01-17cf-4194-8485-2feab2920e63}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -28,6 +31,9 @@
     <ClCompile Include="3052\p3052.cpp">
       <Filter>3052</Filter>
     </ClCompile>
+    <ClCompile Include="1546\p1546.cpp">
+      <Filter>1546</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2562\2562.h">
@@ -41,6 +47,9 @@
     </ClInclude>
     <ClInclude Include="3052\p3052.h">
       <Filter>3052</Filter>
+    </ClInclude>
+    <ClInclude Include="1546\p1546.h">
+      <Filter>1546</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

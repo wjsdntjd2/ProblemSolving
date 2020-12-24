@@ -1,8 +1,8 @@
-#include "3052/p3052.h"
+#include "1546/p1546.h"
 using namespace std;
 
 int main()
 {
-	p3052 p;
-	p.p3052Solving(); 
+	p1546 p;
+	p.p1546Solving(); 
 }
