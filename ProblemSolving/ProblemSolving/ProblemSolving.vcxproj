@@ -144,6 +144,7 @@
     <ClCompile Include="2562\2562.cpp" />
     <ClCompile Include="2577\p2577.cpp" />
     <ClCompile Include="3052\p3052.cpp" />
+    <ClCompile Include="4344\p4344.cpp" />
     <ClCompile Include="8958\p8958.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -153,6 +154,7 @@
     <ClInclude Include="2562\2562.h" />
     <ClInclude Include="2577\p2577.h" />
     <ClInclude Include="3052\p3052.h" />
+    <ClInclude Include="4344\p4344.h" />
     <ClInclude Include="8958\p8958.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
