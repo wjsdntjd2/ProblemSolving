@@ -25,6 +25,12 @@
     <Filter Include="10952">
       <UniqueIdentifier>{03019194-ecf4-4fb1-8ed5-f3e6aeb37690}</UniqueIdentifier>
     </Filter>
+    <Filter Include="1110">
+      <UniqueIdentifier>{4b778d8e-89e7-4293-85c6-c1844668e208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10951">
+      <UniqueIdentifier>{5ea4cf50-ad3f-4452-a925-6dcbd9f21a6b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -52,6 +58,12 @@
     <ClCompile Include="10952\p10952.cpp">
       <Filter>10952</Filter>
     </ClCompile>
+    <ClCompile Include="1110\p1110.cpp">
+      <Filter>1110</Filter>
+    </ClCompile>
+    <ClCompile Include="10951\p10951.cpp">
+      <Filter>10951</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2562\2562.h">
@@ -77,6 +89,12 @@
     </ClInclude>
     <ClInclude Include="10952\p10952.h">
       <Filter>10952</Filter>
+    </ClInclude>
+    <ClInclude Include="1110\p1110.h">
+      <Filter>1110</Filter>
+    </ClInclude>
+    <ClInclude Include="10951\p10951.h">
+      <Filter>10951</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

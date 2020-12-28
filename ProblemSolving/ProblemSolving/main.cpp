@@ -1,8 +1,8 @@
-#include "10952/p10952.h"
+#include "10951/p10951.h"
 using namespace std;
 
 int main()
 {
-	p10952 p;
-	p.p10952Solving(); 
+	p10951 p;
+	p.p10951Solving(); 
 }

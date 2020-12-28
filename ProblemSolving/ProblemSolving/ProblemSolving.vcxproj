@@ -140,7 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10818\p10818.cpp" />
+    <ClCompile Include="10951\p10951.cpp" />
     <ClCompile Include="10952\p10952.cpp" />
+    <ClCompile Include="1110\p1110.cpp" />
     <ClCompile Include="1546\p1546.cpp" />
     <ClCompile Include="2562\2562.cpp" />
     <ClCompile Include="2577\p2577.cpp" />
@@ -151,7 +153,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="10818\p10818.h" />
+    <ClInclude Include="10951\p10951.h" />
     <ClInclude Include="10952\p10952.h" />
+    <ClInclude Include="1110\p1110.h" />
     <ClInclude Include="1546\p1546.h" />
     <ClInclude Include="2562\2562.h" />
     <ClInclude Include="2577\p2577.h" />
