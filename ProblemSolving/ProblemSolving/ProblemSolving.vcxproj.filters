@@ -31,6 +31,9 @@
     <Filter Include="10951">
       <UniqueIdentifier>{5ea4cf50-ad3f-4452-a925-6dcbd9f21a6b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2739">
+      <UniqueIdentifier>{921810e4-f177-4e78-995a-ecfe0fcc4735}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -64,6 +67,9 @@
     <ClCompile Include="10951\p10951.cpp">
       <Filter>10951</Filter>
     </ClCompile>
+    <ClCompile Include="2739\p2739.cpp">
+      <Filter>2739</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2562\2562.h">
@@ -95,6 +101,9 @@
     </ClInclude>
     <ClInclude Include="10951\p10951.h">
       <Filter>10951</Filter>
+    </ClInclude>
+    <ClInclude Include="2739\p2739.h">
+      <Filter>2739</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

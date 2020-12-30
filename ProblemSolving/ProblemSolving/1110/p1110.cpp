@@ -2,38 +2,22 @@
 
 void p1110::p1110Solving()
 {
-	int temp = 0;
-	int t = 0;
-	int a = 0;
-	int s = 0;
-	int b = 0;
 	int count = 0;
-	std::cin >> temp;
-	s = temp;
-	if (temp >= 10)
+	int result;
+	int num;
+	int a, b, c, d;
+	std::cin >> num;
+	result = num;
+	while (true)
 	{
-		t = temp / 10;
-		while (temp > 10)
-		{
-			temp -= 10;
-		}
-	}
-	t += temp;
-	count++;
-	while (t != s)
-	{
-		if (t >= 10)
-		{
-			while (temp > 10)
-			{
-				temp -= 10;
-			}
-		}
-		else
-		{
-			t += temp;
-			count++;
-		}
+		a = num / 10;
+		b = num % 10;
+		c = (a + b) % 10;
+		d = (b * 10) + c;
+		num = d;
+		count++;
+		if (d == result)
+			break;
 	}
 	std::cout << count;
 }
